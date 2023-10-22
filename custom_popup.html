@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .popup-content {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-content">%s</div>
+    <script>
+        // JavaScript 코드가 여기에 들어갑니다.
+        function stylePopup(popup) {
+            var content = popup.querySelector('.popup-content');
+            content.style.whiteSpace = 'nowrap';  // 텍스트가 가로로 줄 바꿈되지 않도록 설정
+        }
+    </script>
+</body>
+</html>

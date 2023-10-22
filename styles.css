@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* 팝업의 텍스트 크기를 조절합니다 */
+.popup-text {
+    font-size: 2px;
+    color:red;
+}
+
+/* 팝업의 배경색을 변경합니다 */
+.popup-background {
+    background-color: rgb(0, 0, 0);
+}
